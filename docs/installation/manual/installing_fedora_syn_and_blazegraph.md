@@ -111,7 +111,7 @@ http://localhost:8000/
 
 #### Fedora configuration properties file
 
-Fedora 6 now allows you to put all your configuration properties into a single file. We use `0640` permissions as you will want to put your database credentials in here.
+Fedora 6 now allows you to put all your configuration properties into a single file. We use `0640` permissions as you will want to put your database credentials in here. Delete all comments (`#` followed by any text) to ensure that Fedora can process the file.
 
 `/opt/fcrepo/config/fcrepo.properties | tomcat:tomcat/640`
 ```{ .text .copy }
